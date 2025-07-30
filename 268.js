@@ -6,4 +6,4 @@ var missingNumber = function(nums) {
     return a.length
 };
 
-console.log(missingNumber([3,0,1])) //2
+console.log(missingNumber([3,0,1])) 
