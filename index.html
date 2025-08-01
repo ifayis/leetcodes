@@ -5,7 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>leetcode</title>
 </head>
+
+ <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+      color: #fff;
+    }
+
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 2rem 3rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 1.2s ease-out;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      letter-spacing: 2px;
+      color: #00ffcc;
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+      animation: pulse 2s infinite;
+    }
+
+    h3, p {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+      color: #ffffffcc;
+      letter-spacing: 1.2px;
+      animation: floatUp 3s ease-in-out infinite;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { text-shadow: 0 0 10px #00ffcc; }
+      50% { text-shadow: 0 0 25px #00ffcc, 0 0 50px #00ffcc; }
+    }
+
+    @keyframes floatUp {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
 <body>
-    <script src="989.js"></script>
+    <div>
+      <h1>DO LEETCODES</h1>
+      <h3>BUILD LOGIC</h3>
+      <p>the output is <script src="771.js"></script></p>
+    </div>
 </body>
+      
+
 </html>
