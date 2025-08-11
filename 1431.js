@@ -11,4 +11,4 @@ var kidsWithCandies = function(candies, extraCandies) {
     return arr
 };
 
-console.log(kidsWithCandies([2,3,5,1,3]))
+document.writeln(kidsWithCandies([2,3,5,1,3]))

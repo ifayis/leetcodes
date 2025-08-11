@@ -6,4 +6,4 @@ var addDigits = function(num) {
 
 };
 
-console.log(addDigits(38))
+document.writeln(addDigits(38))
