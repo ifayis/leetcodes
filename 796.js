@@ -7,4 +7,4 @@ var rotateString = function(s, goal) {
 };
 
 
-document.writeln(rotateString('abcde','cdeab'))
+console.log(rotateString('abcde','cdeab'))

@@ -9,4 +9,4 @@ var capitalizeTitle = function(title) {
     return  a.join(' ')
 };
 
-document.writeln(capitalizeTitle("capiTalIze tHe titLe"));
+console.log(capitalizeTitle("capiTalIze tHe titLe"));

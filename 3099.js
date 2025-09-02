@@ -10,4 +10,4 @@ var sumOfTheDigitsOfHarshadNumber = function(x) {
     return -1
 };
 
-document.writeln(sumOfTheDigitsOfHarshadNumber(18))
+console.log(sumOfTheDigitsOfHarshadNumber(18))

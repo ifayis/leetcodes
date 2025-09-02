@@ -8,4 +8,4 @@ var findWordsContaining = function(words, x) {
     return arr
 };
 
-document.writeln(findWordsContaining(["leet","code"],"e"))
+console.log(findWordsContaining(["leet","code"],"e"))

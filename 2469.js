@@ -4,4 +4,4 @@ var convertTemperature = function(celsius) {
       return [Kelvin, Fahrenheit]
 };
 
-document.writeln(convertTemperature(36.50))
+console.log(convertTemperature(36.50))

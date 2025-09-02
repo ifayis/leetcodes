@@ -8,4 +8,4 @@ var intersection = function(nums1, nums2) {
    return arr
 };
 
-document.writeln(intersection([1,2,2,1],[2,2]))
+console.log(intersection([1,2,2,1],[2,2]))

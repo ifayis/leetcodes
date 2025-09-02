@@ -6,4 +6,4 @@ var repeatedCharacter = function(s) {
     }
 };
 
-document.writeln(repeatedCharacter("abccbaacz"))
+console.log(repeatedCharacter("abccbaacz"))

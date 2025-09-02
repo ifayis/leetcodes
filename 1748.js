@@ -8,4 +8,4 @@ var sumOfUnique = function(nums) {
     return a
 };
 
-document.writeln(sumOfUnique([1,2,3,2]))
+console.log(sumOfUnique([1,2,3,2]))

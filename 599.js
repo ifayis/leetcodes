@@ -17,7 +17,7 @@ var findRestaurant = function(list1, list2) {
     return result
 }
 
-document.writeln(findRestaurant(
+console.log(findRestaurant(
     ["happy","sad","good"], 
     ["sad","happy","good"]
 ));

@@ -7,4 +7,4 @@ var firstUniqChar = function(s) {
   return -1;
 };
 
-document.writeln(firstUniqChar("leetcode"))
+console.log(firstUniqChar("leetcode"))

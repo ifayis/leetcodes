@@ -10,4 +10,4 @@ var numJewelsInStones = function(jewels, stones) {
    return count
 };
 
-document.write(numJewelsInStones("aA","aAAbbbb"));
+console.log(numJewelsInStones("aA","aAAbbbb"));

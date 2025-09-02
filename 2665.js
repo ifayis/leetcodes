@@ -16,4 +16,4 @@ var createCounter = function(init) {
 };
 const counter = createCounter(5)
 
-document.writeln(counter.increment())
+console.log(counter.increment())

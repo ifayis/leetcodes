@@ -9,4 +9,4 @@ var removeElement = function(nums, val) {
      return k
 };
 
-document.writeln(removeElement([3,2,2,3], 3))
+console.log(removeElement([3,2,2,3], 3))

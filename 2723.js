@@ -7,4 +7,3 @@ var addTwoPromises = async function(promise1, promise2) {
 };
 
 console.log(addTwoPromises(promise1, promise2))
-document.writeln('in console')

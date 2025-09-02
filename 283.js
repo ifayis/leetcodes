@@ -14,4 +14,4 @@ var moveZeroes = function(nums) {
 
 var nums = [0, 1, 0, 3, 12];
 moveZeroes(nums);
-document.writeln(nums);
+console.log(nums);
