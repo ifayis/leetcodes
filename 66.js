@@ -10,4 +10,4 @@ var plusOne = function(digits) {
     return digits;
 };
 
-console.log([1,2,3]);
+console.log(plusOne([1,2,3]));

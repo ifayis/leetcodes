@@ -13,4 +13,4 @@ var smallerNumbersThanCurrent = function(nums) {
     return index
 };
 
-console.log([8,1,2,2,3]);
+console.log(smallerNumbersThanCurrent[8,1,2,2,3]);
